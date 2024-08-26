@@ -38,7 +38,7 @@ class HomePage extends Page {
 
     async validateOnCheckoutPage() {
         await expect(this.iconCart).toBeExisting();
-        await browser.pause(10000); // Berhenti selama 10 detik
+        await browser.pause(5000); // Berhenti selama 10 detik
     }
 
     open() {

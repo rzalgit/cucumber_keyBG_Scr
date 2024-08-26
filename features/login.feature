@@ -14,7 +14,7 @@ Feature: Login Test
     Examples:
     | username            | password        |
     | standard_user     | secret_sauce  |
-    # | visual_user  | secret_sauaace  |
+    | visual_user  | secret_sauaace  |
 
  
 # @negative @tc-2
