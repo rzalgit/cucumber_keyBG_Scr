@@ -1,0 +1,22 @@
+{
+  "name": "cucumber_keyBG_Scr",
+  "type": "module",
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^7.7.1",
+    "@wdio/cli": "^9.0.7",
+    "@wdio/cucumber-framework": "^9.0.6",
+    "@wdio/dot-reporter": "^9.0.4",
+    "@wdio/json-reporter": "^9.0.4",
+    "@wdio/junit-reporter": "^9.0.4",
+    "@wdio/local-runner": "^9.0.7",
+    "@wdio/spec-reporter": "^9.0.7",
+    "wdio-cucumberjs-json-reporter": "^4.1.4",
+    "wdio-light-reporter": "^0.2.7"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/globals": "^9.0.7"
+  }
+}
